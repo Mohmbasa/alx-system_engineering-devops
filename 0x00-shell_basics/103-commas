@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -p -A | sed '$!s/$/, /; $s/$/\n/'
