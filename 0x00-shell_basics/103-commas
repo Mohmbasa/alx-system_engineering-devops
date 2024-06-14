@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1p | sort -f | sed '/^\.\{1,2\}$/!s/$/,/; $s/$/\n/'
+ls -map
